@@ -1,0 +1,27 @@
+{
+    "name": "silvertipsoftware/auto-responds",
+    "description": "Opinionated view responses for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Sonnichsen",
+            "email": "andre@silvertipsoftware.com",
+            "homepage": "http://silvertipsoftware.com/"
+        }
+    ],
+    "homepage": "https://github.com/SilvertipSoftware/auto-responds",
+    "keywords": ["Laravel", "view", "response"],
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilvertipSoftware\\AutoResponds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SilvertipSoftware\\AutoResponds\\Tests\\": "tests"
+        }
+    }
+}
